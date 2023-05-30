@@ -18,6 +18,7 @@ public class GuessNum {
         boolean found = false;
 
         while (!found) {
+            System.out.println("Guess a number: ");
             String guess = sc.nextLine();
             guess = guess.toLowerCase();
             if (guess.charAt(0) == 'q') {
